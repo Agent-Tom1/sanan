@@ -1,0 +1,14 @@
+input type="text" id="username" placeholder="username"
+input type="password" id="password" placeholder="password"
+button id="login-button" onclick="login()">login/button>
+script>
+function login() {
+  var username = document.getelementbyid("username").value
+  var password = document.getelementbyid("password").value
+  if (username === "" || password === "") {
+    alert("please fill in both fields")
+  } else {
+    alert("login successful")
+  }
+}
+/script>
